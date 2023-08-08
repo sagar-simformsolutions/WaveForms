@@ -18,6 +18,25 @@
 		2DCD954D1E0B4F2C00145EB5 /* WaveFormsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* WaveFormsTests.m */; };
 		549D624DB5256F48BC6A2F3E /* libPods-WaveForms-WaveFormsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7EC01027AE029F4EBC6BBC6 /* libPods-WaveForms-WaveFormsTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		B41F68C52A811F1E00B9D717 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41F68C42A811F1E00B9D717 /* File.swift */; };
+		B4AA7DDE2A829210005DC4B4 /* AudioErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AA7DCC2A829210005DC4B4 /* AudioErrorType.swift */; };
+		B4AA7DDF2A829210005DC4B4 /* SoundWave+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AA7DCD2A829210005DC4B4 /* SoundWave+Helpers.swift */; };
+		B4AA7DE02A829210005DC4B4 /* FileWaveViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AA7DCE2A829210005DC4B4 /* FileWaveViewManager.swift */; };
+		B4AA7DE12A829210005DC4B4 /* SoundWaveViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AA7DCF2A829210005DC4B4 /* SoundWaveViewManager.swift */; };
+		B4AA7DE22A829210005DC4B4 /* Chronometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AA7DD02A829210005DC4B4 /* Chronometer.swift */; };
+		B4AA7DE32A829210005DC4B4 /* WaveformLiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AA7DD12A829210005DC4B4 /* WaveformLiveView.swift */; };
+		B4AA7DE42A829210005DC4B4 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AA7DD22A829210005DC4B4 /* AudioManager.swift */; };
+		B4AA7DE52A829210005DC4B4 /* WaveformImageDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AA7DD32A829210005DC4B4 /* WaveformImageDrawer.swift */; };
+		B4AA7DE62A829210005DC4B4 /* AudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AA7DD42A829210005DC4B4 /* AudioManager.m */; };
+		B4AA7DE72A829210005DC4B4 /* TempiFFT.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AA7DD52A829210005DC4B4 /* TempiFFT.swift */; };
+		B4AA7DE82A829210005DC4B4 /* AudioVisualizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AA7DD62A829210005DC4B4 /* AudioVisualizationView.swift */; };
+		B4AA7DE92A829210005DC4B4 /* WaveformImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AA7DD72A829210005DC4B4 /* WaveformImageView.swift */; };
+		B4AA7DEA2A829210005DC4B4 /* AudioContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AA7DD82A829210005DC4B4 /* AudioContext.swift */; };
+		B4AA7DEB2A829210005DC4B4 /* BaseNibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AA7DD92A829210005DC4B4 /* BaseNibView.swift */; };
+		B4AA7DEC2A829210005DC4B4 /* WaveformAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AA7DDA2A829210005DC4B4 /* WaveformAnalyzer.swift */; };
+		B4AA7DED2A829210005DC4B4 /* AudioVisualizationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4AA7DDB2A829210005DC4B4 /* AudioVisualizationView.xib */; };
+		B4AA7DEE2A829210005DC4B4 /* WaveformImageTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AA7DDC2A829210005DC4B4 /* WaveformImageTypes.swift */; };
+		B4AA7DEF2A829210005DC4B4 /* SoundWaveViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AA7DDD2A829210005DC4B4 /* SoundWaveViewManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +75,26 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = WaveForms/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CB2F425A2B3F27DBF9997ED /* Pods-WaveForms-WaveFormsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaveForms-WaveFormsTests.release.xcconfig"; path = "Target Support Files/Pods-WaveForms-WaveFormsTests/Pods-WaveForms-WaveFormsTests.release.xcconfig"; sourceTree = "<group>"; };
 		9D72850B7184E51B28126153 /* libPods-WaveForms.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WaveForms.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B41F68C42A811F1E00B9D717 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		B4AA7DCC2A829210005DC4B4 /* AudioErrorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioErrorType.swift; sourceTree = "<group>"; };
+		B4AA7DCD2A829210005DC4B4 /* SoundWave+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SoundWave+Helpers.swift"; sourceTree = "<group>"; };
+		B4AA7DCE2A829210005DC4B4 /* FileWaveViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileWaveViewManager.swift; sourceTree = "<group>"; };
+		B4AA7DCF2A829210005DC4B4 /* SoundWaveViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundWaveViewManager.swift; sourceTree = "<group>"; };
+		B4AA7DD02A829210005DC4B4 /* Chronometer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chronometer.swift; sourceTree = "<group>"; };
+		B4AA7DD12A829210005DC4B4 /* WaveformLiveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveformLiveView.swift; sourceTree = "<group>"; };
+		B4AA7DD22A829210005DC4B4 /* AudioManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		B4AA7DD32A829210005DC4B4 /* WaveformImageDrawer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveformImageDrawer.swift; sourceTree = "<group>"; };
+		B4AA7DD42A829210005DC4B4 /* AudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioManager.m; sourceTree = "<group>"; };
+		B4AA7DD52A829210005DC4B4 /* TempiFFT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempiFFT.swift; sourceTree = "<group>"; };
+		B4AA7DD62A829210005DC4B4 /* AudioVisualizationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioVisualizationView.swift; sourceTree = "<group>"; };
+		B4AA7DD72A829210005DC4B4 /* WaveformImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveformImageView.swift; sourceTree = "<group>"; };
+		B4AA7DD82A829210005DC4B4 /* AudioContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioContext.swift; sourceTree = "<group>"; };
+		B4AA7DD92A829210005DC4B4 /* BaseNibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNibView.swift; sourceTree = "<group>"; };
+		B4AA7DDA2A829210005DC4B4 /* WaveformAnalyzer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveformAnalyzer.swift; sourceTree = "<group>"; };
+		B4AA7DDB2A829210005DC4B4 /* AudioVisualizationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AudioVisualizationView.xib; sourceTree = "<group>"; };
+		B4AA7DDC2A829210005DC4B4 /* WaveformImageTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveformImageTypes.swift; sourceTree = "<group>"; };
+		B4AA7DDD2A829210005DC4B4 /* SoundWaveViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundWaveViewManager.m; sourceTree = "<group>"; };
+		B4C1A89D2A8120E9002022E7 /* WaveDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WaveDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		D671084829012EA000E17C87 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		E7EC01027AE029F4EBC6BBC6 /* libPods-WaveForms-WaveFormsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WaveForms-WaveFormsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -116,6 +155,8 @@
 		13B07FAE1A68108700A75B9A /* WaveForms */ = {
 			isa = PBXGroup;
 			children = (
+				B4AA7DCB2A829210005DC4B4 /* SoundWave */,
+				B41F68C42A811F1E00B9D717 /* File.swift */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
@@ -123,6 +164,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				B4C1A89D2A8120E9002022E7 /* WaveDemo-Bridging-Header.h */,
 			);
 			name = WaveForms;
 			sourceTree = "<group>";
@@ -181,6 +223,31 @@
 				2D02E4901E0B4A5D006451C7 /* WaveForms-tvOSTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B4AA7DCB2A829210005DC4B4 /* SoundWave */ = {
+			isa = PBXGroup;
+			children = (
+				B4AA7DCC2A829210005DC4B4 /* AudioErrorType.swift */,
+				B4AA7DCD2A829210005DC4B4 /* SoundWave+Helpers.swift */,
+				B4AA7DCE2A829210005DC4B4 /* FileWaveViewManager.swift */,
+				B4AA7DCF2A829210005DC4B4 /* SoundWaveViewManager.swift */,
+				B4AA7DD02A829210005DC4B4 /* Chronometer.swift */,
+				B4AA7DD12A829210005DC4B4 /* WaveformLiveView.swift */,
+				B4AA7DD22A829210005DC4B4 /* AudioManager.swift */,
+				B4AA7DD32A829210005DC4B4 /* WaveformImageDrawer.swift */,
+				B4AA7DD42A829210005DC4B4 /* AudioManager.m */,
+				B4AA7DD52A829210005DC4B4 /* TempiFFT.swift */,
+				B4AA7DD62A829210005DC4B4 /* AudioVisualizationView.swift */,
+				B4AA7DD72A829210005DC4B4 /* WaveformImageView.swift */,
+				B4AA7DD82A829210005DC4B4 /* AudioContext.swift */,
+				B4AA7DD92A829210005DC4B4 /* BaseNibView.swift */,
+				B4AA7DDA2A829210005DC4B4 /* WaveformAnalyzer.swift */,
+				B4AA7DDB2A829210005DC4B4 /* AudioVisualizationView.xib */,
+				B4AA7DDC2A829210005DC4B4 /* WaveformImageTypes.swift */,
+				B4AA7DDD2A829210005DC4B4 /* SoundWaveViewManager.m */,
+			);
+			path = SoundWave;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +346,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 2M7GJN4WW3;
 						LastSwiftMigration = 1120;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
@@ -327,6 +395,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				B4AA7DED2A829210005DC4B4 /* AudioVisualizationView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,8 +626,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4AA7DE72A829210005DC4B4 /* TempiFFT.swift in Sources */,
+				B4AA7DEE2A829210005DC4B4 /* WaveformImageTypes.swift in Sources */,
+				B4AA7DE12A829210005DC4B4 /* SoundWaveViewManager.swift in Sources */,
+				B4AA7DE82A829210005DC4B4 /* AudioVisualizationView.swift in Sources */,
+				B4AA7DEB2A829210005DC4B4 /* BaseNibView.swift in Sources */,
+				B41F68C52A811F1E00B9D717 /* File.swift in Sources */,
+				B4AA7DEA2A829210005DC4B4 /* AudioContext.swift in Sources */,
+				B4AA7DE32A829210005DC4B4 /* WaveformLiveView.swift in Sources */,
+				B4AA7DE22A829210005DC4B4 /* Chronometer.swift in Sources */,
+				B4AA7DEC2A829210005DC4B4 /* WaveformAnalyzer.swift in Sources */,
+				B4AA7DDE2A829210005DC4B4 /* AudioErrorType.swift in Sources */,
+				B4AA7DE92A829210005DC4B4 /* WaveformImageView.swift in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				B4AA7DE62A829210005DC4B4 /* AudioManager.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				B4AA7DEF2A829210005DC4B4 /* SoundWaveViewManager.m in Sources */,
+				B4AA7DDF2A829210005DC4B4 /* SoundWave+Helpers.swift in Sources */,
+				B4AA7DE42A829210005DC4B4 /* AudioManager.swift in Sources */,
+				B4AA7DE52A829210005DC4B4 /* WaveformImageDrawer.swift in Sources */,
+				B4AA7DE02A829210005DC4B4 /* FileWaveViewManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -599,6 +686,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 42A1176DCFDF880006484AA0 /* Pods-WaveForms-WaveFormsTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -622,6 +710,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9CB2F425A2B3F27DBF9997ED /* Pods-WaveForms-WaveFormsTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = WaveFormsTests/Info.plist;
@@ -645,6 +734,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2M7GJN4WW3;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = WaveForms/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -656,6 +746,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.simform.waveforms;
 				PRODUCT_NAME = WaveForms;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/sagar.pawar/ReactNative/Git/WaveForms/ios/WaveDemo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -669,6 +760,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2M7GJN4WW3;
 				INFOPLIST_FILE = WaveForms/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.0;
@@ -679,6 +771,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.simform.waveforms;
 				PRODUCT_NAME = WaveForms;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/sagar.pawar/ReactNative/Git/WaveForms/ios/WaveDemo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};

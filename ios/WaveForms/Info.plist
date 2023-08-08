@@ -37,6 +37,10 @@
 			</dict>
 		</dict>
 	</dict>
+	  <key>NSMicrophoneUsageDescription</key>
+  <string>Allow access to Microphone to visualize audio representation.</string>
+  <key>NSSpeechRecognitionUsageDescription</key>
+  <string>You can view a text transcription of your meeting in the app.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
 	<key>NSCameraUsageDescription</key>
